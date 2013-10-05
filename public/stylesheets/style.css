@@ -1,0 +1,28 @@
+body {
+  color: #444;
+  background: #B5D045;
+  font-family: 'Ubuntu', sans-serif;
+}
+.header h1 {
+  font-size: 400%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+h6 {
+  text-align: center;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#paper {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  margin-left: -400px;
+  margin-top: -350px;
+}
