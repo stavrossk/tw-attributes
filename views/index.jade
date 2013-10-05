@@ -1,0 +1,18 @@
+doctype 5
+html
+    head
+        title Twitter Attributes
+        link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Ubuntu')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="http://code.jquery.com/jquery-2.0.3.min.js")
+        script(src="components/socket.io-client/dist/socket.io.min.js")
+        script(src="https://rawgithub.com/DmitryBaranovskiy/raphael/4db4fec6ab06a49aab8c4f3d2f280c6ce9466f41/raphael-min.js")
+        script(src="https://rawgithub.com/Valve/g.raphael-radar/master/g.radar.min.js")
+        script(src="/javascripts/script.js")
+    body
+        .container
+            .header
+                h1 Twitter Attributes
+                h6 Last updated:
+                        span(id="last-update") Never
+        #paper
